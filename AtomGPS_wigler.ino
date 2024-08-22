@@ -15,8 +15,8 @@ String fileName;
 
 const String logDirectoryPath = "/wifi-scans";
 const String uploadedDirectoryPath = "/uploaded";
-const String apiName = "AIDb22db2e76bdd80be31bdd4ef689959c0";
-const String apiToken = "72e60093d5314abe89c1407539fa846b";
+const String apiName = "xx";
+const String apiToken = "xx";
 const String wigleUrl = "https://api.wigle.net";
 
 const int maxMACs = 75;
@@ -100,7 +100,7 @@ void waitForGPSFix()
 
 void connectToWiFi(){
   Serial.println("Connecting to WiFi...");
-  wifiMulti.addAP("Brix.Team", "iso!donotshare");
+  wifiMulti.addAP("xx", "xx");
   while (wifiMulti.run() != WL_CONNECTED)
   {
     delay(1000);
